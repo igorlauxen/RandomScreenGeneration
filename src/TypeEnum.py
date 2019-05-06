@@ -7,6 +7,7 @@ class TypeEnum(Enum):
     DATEPICKER = 'DATEPICKER'
     CHECKBOX = 'CHECKBOX'
 
+    #@TODO improve this... there is totally a way better way to do this
     @classmethod
     def getRandom(cls):
         randomInteger = random.randint(0, 3)
