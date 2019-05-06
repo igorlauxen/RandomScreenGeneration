@@ -18,7 +18,6 @@ class RandomTransactionConfig:
         return self.screens
 
     def returnHowManyScreen(self):
-        times = 0
         if isinstance(self.nScreens, str):
             times = int(self.nScreens)
         else:

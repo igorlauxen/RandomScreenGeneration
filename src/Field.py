@@ -24,5 +24,8 @@ class Field:
         self.name = generateRandomName()
         self.id = id
 
+    def serialize(self):
+        return self.__dict__
+
 
 

@@ -20,3 +20,6 @@ class Screen:
 
     def getFieldsLength(self):
         return len(self.fields)
+
+    def serialize(self):
+        return self.__dict__
